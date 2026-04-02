@@ -1,0 +1,30 @@
+# AnatomySelf V5.5 依赖清单
+
+# ========== 核心框架 ==========
+streamlit>=1.30.0
+
+# ========== AI 调用 ==========
+openai>=1.0.0
+
+# ========== 数据处理 ==========
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ========== 图表可视化 ==========
+plotly>=5.14.0
+matplotlib>=3.7.0
+
+# ========== 网络请求 ==========
+requests>=2.31.0
+
+# ========== OCR 功能（可选）==========
+# 如需使用 OCR 功能，请取消下面两行注释并安装 Tesseract 系统程序
+# pdfplumber>=0.10.0
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+
+# ========== 系统依赖说明 ==========
+# Tesseract OCR（需单独安装）：
+#   macOS: brew install tesseract tesseract-lang
+#   Ubuntu/Debian: sudo apt-get install tesseract-ocr tesseract-ocr-chi-sim
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
